@@ -1,0 +1,5 @@
+python -c "from data_generation import generate_dataset; generate_dataset(out_dir='synthetic_orb_realistic', n=500)"
+
+python train.py --data synthetic_orb_realistic --epochs 6 --batch 16 --out orientation_mobilenet.pth
+
+
