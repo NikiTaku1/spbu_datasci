@@ -2,4 +2,5 @@ python -c "from data_generation import generate_dataset; generate_dataset(out_di
 
 python train.py --data synthetic_orb_realistic --epochs 6 --batch 16 --out orientation_mobilenet.pth
 
+python app.py
 
