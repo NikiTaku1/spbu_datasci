@@ -1,0 +1,7 @@
+train:
+  epochs: 15
+  batch_size: 32
+  lr: 0.001
+  img_size: 224
+  fine_tune: true
+  dropout_rate: 0.3

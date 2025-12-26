@@ -1,0 +1,13 @@
+stages:
+  train:
+    cmd: python src/train.py
+    deps:
+      - src/train.py
+      - src/model.py
+      - dataset
+      - params.yaml
+    outs:
+      - models/butterfly_model.h5
+      - models/classes.json
+    metrics:
+      - metrics.json

@@ -1,0 +1,35 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python src/train.py
+    deps:
+    - path: dataset
+      hash: md5
+      md5: 9f7b4bc0576bf0b6c42fa9f9e13eb28d.dir
+      size: 756478268
+      nfiles: 6529
+    - path: params.yaml
+      hash: md5
+      md5: 389419e168f5fbeb77db099454940a8a
+      size: 110
+    - path: src/model.py
+      hash: md5
+      md5: c63e50c59cec4cdb21a1f03c182034be
+      size: 974
+    - path: src/train.py
+      hash: md5
+      md5: 12eaf5b1ee5b32f47640f77d4d29b71d
+      size: 3990
+    outs:
+    - path: metrics.json
+      hash: md5
+      md5: 363028a9e57d9d4a1ebbb7cf5aa12484
+      size: 74
+    - path: models/butterfly_model.h5
+      hash: md5
+      md5: fe9c917fcff853bacfa322ba2c95253e
+      size: 9677512
+    - path: models/classes.json
+      hash: md5
+      md5: c6eed7c43a54d36dbc9830e23a858e32
+      size: 135

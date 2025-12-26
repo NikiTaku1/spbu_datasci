@@ -1,0 +1,5 @@
+tensorflow>=2.12
+flask
+dvc
+pyyaml
+numpy

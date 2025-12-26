@@ -1,0 +1,5 @@
+outs:
+- md5: fe9c917fcff853bacfa322ba2c95253e
+  size: 9677512
+  hash: md5
+  path: butterfly_model_best.h5
